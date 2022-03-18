@@ -13,7 +13,10 @@ body {
   box-shadow: 6px 6px 6px 0px #0e1d2f;
   padding: 65px;
 }
-
+.container a {
+  color: #1c1c1c;
+  font-weight: 600;
+}
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -75,10 +78,10 @@ body {
   line-height: 48px;
 }
 
-/* .projetos-item a {
+.projetos-item a {
   color: #1c1c1c;
   text-decoration: none;
-} */
+} 
 
 .dark {
   background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
